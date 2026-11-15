@@ -26,3 +26,9 @@ dotnet run --project .\DesktopSnow.csproj -c Release
 dotnet publish .\DesktopSnow.csproj -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -p:DebugType=none -o dist
 dotnet run --project .\tests\DesktopSnow.Checks.csproj -c Release
 ```
+
+## Скачать Desktop Snow
+
+**[Скачать DesktopSnow.exe для Windows](https://github.com/Nikita1512russs/DesktopSnow/releases/latest/download/DesktopSnow.exe)**
+
+Нажмите на ссылку и запустите скачанный файл. Если Windows попросит установить .NET, скачайте **.NET 8 Desktop Runtime x64** по ссылке из раздела «Как запустить».
